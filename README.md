@@ -4,7 +4,7 @@ Circuitry
   Main Board
 
   The main board was actually purchased from RyanBates, and all credit to the design of the board goes to him. I believe that it is a good starting point, and allows me to become comfortable with handling circuit boards. Image of the circuit diagram is shown below.
-<img width="1999" height="1545" alt="canvas" src="https://github.com/user-attachments/assets/d49a094b-a31f-418f-847a-69a7e5038590" />
+<img width="999" height="545" alt="canvas" src="https://github.com/user-attachments/assets/d49a094b-a31f-418f-847a-69a7e5038590" />
 
 
   The datasheet above has information regarding the construction of the board. The cherry MX keys are found toward the top of the board, and have support for two additional encoders in place of two MX keys. Each rotary encoder can also act as an additional key press, while also acting as an adjusting knob. Soldering the encoder jumpers allows theo be installed. LEDs were also added to each key, with a resistor for the LED power line. In general, it can be between 220 - 300 ohms, and simply protects the LEDs from too much input current, potentially burning them out.
