@@ -1,8 +1,9 @@
 
 Circuitry
 
-Main Board
-	The main board was actually purchased from RyanBates, and all credit to the design of the board goes to him. I believe that it is a good starting point, and allows me to become comfortable with handling circuit boards. Image of the circuit diagram is shown below.
+**Main Board
+**
+The main board was actually purchased from RyanBates, and all credit to the design of the board goes to him. I believe that it is a good starting point, and allows me to become comfortable with handling circuit boards. Image of the circuit diagram is shown below.
 <img width="1999" height="1545" alt="canvas" src="https://github.com/user-attachments/assets/d49a094b-a31f-418f-847a-69a7e5038590" />
 
 
