@@ -7,6 +7,7 @@ Casing
 
 3D models were provided for a case for the main board. While they could have worked, they would have needed to be modified due to my Pro Micro board being slightly different in design. In addition, there are a few things about the design of this case that are not preferred for my version of the board, so designing a custom case was the way to go. The casing was created using a 3D and a roll of PLA filament. The model itself was created using Fusion 360, and the pertaining files will be provided in the repository. Below you will find images of the enclosure.
 
+<img width="1160" height="774" alt="image" src="https://github.com/user-attachments/assets/a0e595ad-507c-4f0b-bd48-64393f082a67" />
 
 
 
@@ -26,6 +27,7 @@ Firmware
 	
 While some kind of firmware was provided, I decided to begin coding the firmware myself. I wanted to understand how it can be done, as it would be useful for future projects involving keyboards and switches. This was done with QMK, and all the files related to the firmware will be kept in this repository. Below is a correct pinout diagram.
 
+<img width="476" height="304" alt="image" src="https://github.com/user-attachments/assets/cd0b4559-e0f5-4bd2-97c5-cf3e06ea0e6f" />
 
 For the encoders, QMK has the documentation on how to get them working. Each encoder has an A and B pin associated, and the circuit diagram that was given to me includes the associated pins. Using the diagram above, you can define them in config.h. An important note, in the rules.mk file, you only need to use ENABLE_ENCODER, and do not include ENCODER_MAP_ENABLE. This will not allow the encoders to function at all, and is used if you simply need the encoders for more complex keymaps with various layers (more than 1 function per encoder).
 
