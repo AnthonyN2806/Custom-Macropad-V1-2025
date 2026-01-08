@@ -3,12 +3,14 @@ Custom Keyboard Macropad Notes
 
 
 Casing
+
 	3D models were provided for a case for the main board. While they could have worked, they would have needed to be modified due to my Pro Micro board being slightly different in design. In addition, there are a few things about the design of this case that are not preferred for my version of the board, so designing a custom case was the way to go. The casing was created using a 3D and a roll of PLA filament. The model itself was created using Fusion 360, and the pertaining files will be provided in the repository. Below you will find images of the enclosure.
 
 
 
 
 Main Board
+
 	The main board was actually purchased from RyanBates, and all credit to the design of the board goes to him. I believe that it is a good starting point, and allows me to become comfortable with handling circuit boards. Image of the circuit diagram is shown below.
 
 
@@ -19,7 +21,7 @@ In addition, it was stated that capacitors may be needed for each individual LED
 
 Firmware
 
-While some kind of firmware was provided, I decided to begin coding the firmware myself. I wanted to understand how it can be done, as it would be useful for future projects involving keyboards and switches. This was done with QMK, and all the files related to the firmware will be kept in this repository. Below is a correct pinout diagram.
+	While some kind of firmware was provided, I decided to begin coding the firmware myself. I wanted to understand how it can be done, as it would be useful for future projects involving keyboards and switches. This was done with QMK, and all the files related to the firmware will be kept in this repository. Below is a correct pinout diagram.
 
 
 
