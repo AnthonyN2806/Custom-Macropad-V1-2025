@@ -6,8 +6,8 @@ Casing
 
 
 3D models were provided for a case for the main board. While they could have worked, they would have needed to be modified due to my Pro Micro board being slightly different in design. In addition, there are a few things about the design of this case that are not preferred for my version of the board, so designing a custom case was the way to go. The casing was created using a 3D and a roll of PLA filament. The model itself was created using Fusion 360, and the pertaining files will be provided in the repository. Below you will find images of the enclosure.
-<p>
-<img align = "center" width="460" height="380" alt="image"  src="https://github.com/user-attachments/assets/a0e595ad-507c-4f0b-bd48-64393f082a67" />
+<p align = "center">
+<img  width="460" height="380" alt="image"  src="https://github.com/user-attachments/assets/a0e595ad-507c-4f0b-bd48-64393f082a67" />
 
 	
 </p>
