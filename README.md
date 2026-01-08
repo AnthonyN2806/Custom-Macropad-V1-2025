@@ -4,14 +4,16 @@ Custom Keyboard Macropad Notes
 
 Casing
 
-	3D models were provided for a case for the main board. While they could have worked, they would have needed to be modified due to my Pro Micro board being slightly different in design. In addition, there are a few things about the design of this case that are not preferred for my version of the board, so designing a custom case was the way to go. The casing was created using a 3D and a roll of PLA filament. The model itself was created using Fusion 360, and the pertaining files will be provided in the repository. Below you will find images of the enclosure.
+
+3D models were provided for a case for the main board. While they could have worked, they would have needed to be modified due to my Pro Micro board being slightly different in design. In addition, there are a few things about the design of this case that are not preferred for my version of the board, so designing a custom case was the way to go. The casing was created using a 3D and a roll of PLA filament. The model itself was created using Fusion 360, and the pertaining files will be provided in the repository. Below you will find images of the enclosure.
 
 
 
 
 Main Board
 
-	The main board was actually purchased from RyanBates, and all credit to the design of the board goes to him. I believe that it is a good starting point, and allows me to become comfortable with handling circuit boards. Image of the circuit diagram is shown below.
+
+The main board was actually purchased from RyanBates, and all credit to the design of the board goes to him. I believe that it is a good starting point, and allows me to become comfortable with handling circuit boards. Image of the circuit diagram is shown below.
 
 
 The datasheet above has information regarding the construction of the board. The cherry MX keys are found toward the top of the board, and have support for two additional encoders in place of two MX keys. Each rotary encoder can also act as an additional key press, while also acting as an adjusting knob. Soldering the encoder jumpers allows them to be installed. LEDs were also added to each key, with a resistor for the LED power line. In general, it can be between 220 - 300 ohms, and simply protects the LEDs from too much input current, potentially burning them out.
@@ -21,9 +23,8 @@ In addition, it was stated that capacitors may be needed for each individual LED
 
 Firmware
 
-	While some kind of firmware was provided, I decided to begin coding the firmware myself. I wanted to understand how it can be done, as it would be useful for future projects involving keyboards and switches. This was done with QMK, and all the files related to the firmware will be kept in this repository. Below is a correct pinout diagram.
-
-
+	
+While some kind of firmware was provided, I decided to begin coding the firmware myself. I wanted to understand how it can be done, as it would be useful for future projects involving keyboards and switches. This was done with QMK, and all the files related to the firmware will be kept in this repository. Below is a correct pinout diagram.
 
 
 For the encoders, QMK has the documentation on how to get them working. Each encoder has an A and B pin associated, and the circuit diagram that was given to me includes the associated pins. Using the diagram above, you can define them in config.h. An important note, in the rules.mk file, you only need to use ENABLE_ENCODER, and do not include ENCODER_MAP_ENABLE. This will not allow the encoders to function at all, and is used if you simply need the encoders for more complex keymaps with various layers (more than 1 function per encoder).
