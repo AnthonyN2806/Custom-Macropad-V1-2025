@@ -32,8 +32,11 @@ Firmware
 
 	
 While some kind of firmware was provided, I decided to begin coding the firmware myself. I wanted to understand how it can be done, as it would be useful for future projects involving keyboards and switches. This was done with QMK, and all the files related to the firmware will be kept in this repository. Below is a correct pinout diagram.
+<p align = "center">
 
 <img width="476" height="304" alt="image" src="https://github.com/user-attachments/assets/cd0b4559-e0f5-4bd2-97c5-cf3e06ea0e6f" />
+
+</p>
 
 For the encoders, QMK has the documentation on how to get them working. Each encoder has an A and B pin associated, and the circuit diagram that was given to me includes the associated pins. Using the diagram above, you can define them in config.h. An important note, in the rules.mk file, you only need to use ENABLE_ENCODER, and do not include ENCODER_MAP_ENABLE. This will not allow the encoders to function at all, and is used if you simply need the encoders for more complex keymaps with various layers (more than 1 function per encoder).
 
